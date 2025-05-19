@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Virtual Currency Oversight Bureau (VCOB)</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f9; color: #333; }
+    header { background-color: #002855; color: white; padding: 20px 0; text-align: center; }
+    nav { background-color: #014f86; padding: 10px 0; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    .hero { background-color: #cce5ff; padding: 50px 20px; text-align: center; }
+    .hero h1 { margin-bottom: 10px; }
+    .section { padding: 40px 20px; text-align: center; }
+    .verify-form { background-color: #ffffff; padding: 20px; margin: 20px auto; max-width: 400px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+    .verify-form input[type="text"] { width: 100%; padding: 10px; margin-top: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px; }
+    .verify-form button { background-color: #014f86; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; }
+    footer { background-color: #002855; color: white; text-align: center; padding: 15px 0; }
+    img.logo { width: 120px; margin-bottom: 10px; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo_vcob.png" alt="VCOB Logo" class="logo" />
+    <h1>Virtual Currency Oversight Bureau (VCOB)</h1>
+    <p>Protecting Integrity in the Digital Economy</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#licensing">Licensing</a>
+    <a href="#compliance">Compliance</a>
+    <a href="#verify">Verify</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Safeguarding Digital Finance</h1>
+    <p>Regulating cryptocurrency markets with trust, transparency, and enforcement.</p>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About VCOB</h2>
+    <p>The Virtual Currency Oversight Bureau ensures that digital asset providers follow international standards for security, anti-fraud, and consumer protection.</p>
+  </section>
+
+  <section id="licensing" class="section">
+    <h2>Licensing & Registration</h2>
+    <p>We authorize legitimate crypto platforms and provide regulatory guidance for market participants.</p>
+  </section>
+
+  <section id="compliance" class="section">
+    <h2>Compliance & Enforcement</h2>
+    <p>Our team monitors and investigates non-compliant entities to protect users and ensure market stability.</p>
+  </section>
+
+  <section id="verify" class="section">
+    <h2>Verify Registration</h2>
+    <div class="verify-form">
+      <label for="regNumber">Enter Registration Number:</label>
+      <input type="text" id="regNumber" name="regNumber" placeholder="e.g. VCOB-2025-0001" />
+      <button onclick="alert('Verification feature coming soon.')">Verify</button>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:contact@vcob-reg.org">contact@vcob-reg.org</a></p>
+    <p>Website: <a href="http://www.vcob-reg.org">www.vcob-reg.org</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Virtual Currency Oversight Bureau (VCOB). All rights reserved.</p>
+  </footer>
+</body>
+</html>
